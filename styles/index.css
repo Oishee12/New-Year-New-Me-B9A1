@@ -1,0 +1,25 @@
+.banner-section {
+    background-image: linear-gradient(#070211, #07021100), url('../resources/Banner\ Image.png');
+    width: 1320px;
+    height: 600px;
+}
+
+.new-year {
+    padding-top: 177px;
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.new-year-party {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    width: 632px;
+    height: 190px;
+    margin: 0px 344px 220px 344px;
+}
