@@ -7,6 +7,7 @@
     background-image: linear-gradient(#070211, #07021100), url('../resources/Banner\ Image.png');
     width: 1320px;
     height: 600px;
+    border-radius: 8px;
 }
 
 .new-year {
@@ -37,6 +38,7 @@
     /* margin-left: 400px;
     margin-right: 400px; */
     align-items: center;
+    margin-bottom: 120px;
 }
 
 .off-section {
@@ -67,10 +69,47 @@
     margin-bottom: 45px;
 }
 
-.section-one-image{
+.section-one-image {
     height: 500px;
     width: 800px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+/* section-two */
+
+.section-two {
+    width: 1320px;
+    height: 600px;
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
+    display: flex;
+    border-radius: 8px;
+}
+
+.section-two-heading {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    margin-left: 40px;
+    margin-bottom: 25px;
+}
+
+.section-two-pera {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 40px;
+    margin-bottom: 45px;
+}
+
+.section-two-pera2 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 70px;
 }
