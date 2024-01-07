@@ -1,3 +1,8 @@
+* {
+    margin: auto;
+    max-width: 1320px;
+}
+
 .banner-section {
     background-image: linear-gradient(#070211, #07021100), url('../resources/Banner\ Image.png');
     width: 1320px;
@@ -11,6 +16,7 @@
     font-family: Merriweather;
     font-size: 32px;
     font-weight: 400;
+    padding-bottom: 30px;
 }
 
 .new-year-party {
@@ -22,4 +28,49 @@
     width: 632px;
     height: 190px;
     margin: 0px 344px 220px 344px;
+}
+
+/* section-one */
+
+.section-one {
+    border: 1px solid black;
+    /* margin-left: 400px;
+    margin-right: 400px; */
+    align-items: center;
+}
+
+.off-section {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    margin-top: 120px;
+    margin-bottom: 45px;
+}
+
+.holiday-section {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.all-section {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 45px;
+}
+
+.section-one-image{
+    height: 500px;
+    width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
