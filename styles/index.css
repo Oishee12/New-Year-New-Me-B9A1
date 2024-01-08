@@ -163,3 +163,49 @@
     margin-left: 600px;
     margin-top: 45px;
 }
+
+/* section-four */
+.section-four {
+    border: 1px solid black;
+    height: 450px;
+    margin-bottom: 120px;
+    display: flex;
+}
+
+.section-four-text,
+.section-four-image,
+.section-four-year {
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+}
+
+.best-offer {
+    color: #F00;
+    text-align: left;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 75px;
+    padding-bottom: 10px;
+}
+
+.coming-soon {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    padding-bottom: 22px;
+}
+
+.offer-info {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 160% */
+}
