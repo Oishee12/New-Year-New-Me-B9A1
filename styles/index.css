@@ -180,8 +180,8 @@
     width: 400px;
     height: 400px;
     margin: 20px;
-    background-color: #f0f0f0;
-    border: 1px solid #ccc;
+    /* background-color: #f0f0f0;
+    border: 1px solid #ccc; */
 }
 
 .best-offer {
@@ -241,4 +241,45 @@
     /* 160% */
     margin-bottom: 40px;
 
+}
+
+/* section-five */
+.section-five {
+    border: 1px solid black;
+    height: 1120px;
+    margin-bottom: 120px;
+}
+
+.best-gift {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500px;
+    margin-bottom: 10px;
+}
+
+.porfolio {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900px;
+    margin-bottom: 18px;
+}
+
+.portfolio-info {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400px;
+    line-height: 32px;
+    /* 160% */
+    margin-bottom: 45px;
+}
+
+.shopping {
+    border-radius: 16px;
+    width: 420px;
+    height: 435px;
+    margin-bottom: 25px;
 }
