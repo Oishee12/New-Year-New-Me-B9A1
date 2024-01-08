@@ -281,5 +281,14 @@
     border-radius: 16px;
     width: 420px;
     height: 435px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
+}
+
+.magic-image{
+    border-radius: 16px;
+}
+.magic-image:hover img{
+    cursor: pointer;
+    border: 2px solid firebrick;
+    border-radius: 16px;
 }
