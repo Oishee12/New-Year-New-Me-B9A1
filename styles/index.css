@@ -112,6 +112,8 @@
     font-weight: 700;
     text-transform: uppercase;
     margin-left: 70px;
+    background: transparent;
+    border: 0px;
 }
 
 /* section-three */
@@ -208,4 +210,35 @@
     font-weight: 400;
     line-height: 30px;
     /* 160% */
+}
+
+.section-four-image {
+    border-radius: 463px;
+    border: 11px solid #F00;
+
+}
+
+#party-image-id {
+    height: 350px;
+    width: 350px;
+}
+
+.year {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+
+.year-info {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+    margin-bottom: 40px;
+
 }
