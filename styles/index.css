@@ -2,10 +2,11 @@
     margin: auto;
 }
 
-header{
+header {
     max-width: 1320px;
 }
-main{
+
+main {
     max-width: 1320px;
 }
 
@@ -51,7 +52,7 @@ main{
     text-align: center;
     font-family: Inter;
     font-size: 88px;
-    font-weight: 700;
+    font-weight: 700px;
     margin-bottom: 45px;
 }
 
@@ -60,7 +61,7 @@ main{
     text-align: center;
     font-family: Inter;
     font-size: 24px;
-    font-weight: 500;
+    font-weight: 500px;
     margin-bottom: 20px;
 }
 
@@ -96,18 +97,21 @@ main{
     color: #FFF;
     font-family: Merriweather;
     font-size: 64px;
-    font-weight: 900;
+    font-weight: 900px;
     margin-left: 40px;
     margin-bottom: 25px;
+    line-height: 80px;
+    letter-spacing: 7.04px;
 }
 
 .section-two-pera {
     color: rgba(255, 255, 255, 0.80);
     font-family: Inter;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 400px;
     margin-left: 40px;
-    margin-bottom: 45px;
+    margin-bottom: 40px;
+    line-height: 30px;
 }
 
 .section-two-pera2 {
@@ -370,7 +374,7 @@ input[type="email"] {
 
 /* footer */
 
-.footer-info{
+.footer-info {
     width: 1320px;
 }
 
@@ -452,7 +456,7 @@ hr {
 
 /* footer-section-two */
 
-.footer-section-two{
+.footer-section-two {
     margin-bottom: 45px;
     display: flex;
     justify-content: center;
