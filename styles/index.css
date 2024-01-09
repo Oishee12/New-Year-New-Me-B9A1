@@ -281,9 +281,10 @@ main {
 
 .shopping {
     border-radius: 16px;
-    width: 420px;
+    width: 418px;
     height: 435px;
     margin-bottom: 20px;
+    border: 2px solid transparent;
 }
 
 .magic-image {
@@ -292,7 +293,7 @@ main {
 
 .magic-image:hover img {
     cursor: pointer;
-    border: 2px solid firebrick; 
+    background-color: firebrick;
     border-radius: 16px;
 }
 
@@ -365,8 +366,6 @@ main {
     background-color: #F00;
 }
 
-
-
 /* footer */
 
 .footer-info {
@@ -376,7 +375,7 @@ main {
 .footer-section {
     margin-bottom: 30px;
     height: 500px;
-    width: 1400px;
+    width: 1380px;
     background-color: #070211;
 }
 
