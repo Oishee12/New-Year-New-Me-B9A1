@@ -370,17 +370,23 @@ input[type="email"] {
 
 /* footer */
 
+.footer-info{
+    width: 1320px;
+}
+
 .footer-section {
     margin-bottom: 30px;
-    width: 1400px;
-    height: 550px;
+    height: 600px;
     background-color: #070211;
 }
+
+/* footer-section-one */
 
 .footer-section-one {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 35px;
+    gap: 550px;
+    margin-bottom: 45px;
 }
 
 .address {
@@ -390,10 +396,12 @@ input[type="email"] {
     font-weight: 500px;
     line-height: 40px;
     padding-top: 110px;
+    padding-right: 40px;
 }
 
 .contact {
     padding-top: 110px;
+    padding-right: 100px;
 }
 
 .call-info {
@@ -435,26 +443,31 @@ input[type="email"] {
 }
 
 hr {
-    width: 1000px;
+    width: 1290px;
     height: 2px;
     background-color: rgba(255, 255, 255, 0.15);
     border: 0px;
-    margin-bottom: 35px;
+    margin-bottom: 45px;
+}
+
+/* footer-section-two */
+
+.footer-section-two{
+    margin-bottom: 45px;
+    display: flex;
+    justify-content: center;
 }
 
 .linked-app {
     width: 64px;
     height: 64px;
-    margin-right: 40px;
 }
 
-.footer-images {
-    margin-left: 500px;
-    margin-bottom: 35px;
-}
+/* footer-section-three */
 
 .footer-section-three {
     display: flex;
+    gap: 700px;
 }
 
 .reserved {
